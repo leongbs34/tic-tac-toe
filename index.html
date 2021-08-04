@@ -2,10 +2,14 @@
 <html>
     <head>
         <link href="styles.css" rel='stylesheet'></link>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Tic Tac Toe</title>
     </head>
     <body>
-        <div class='main'>
+        <div id="blur-bg" class="hide">
+            <div class="gameover">Test</div>
+        </div>
+        <div id='main'>
             <div class='center'>
                 <div class='board'>
                     <div class="grids">
@@ -37,6 +41,8 @@
                     </div>
                 </div>
             </div>
+            <button id="reset-btn">Restart</button>
+
         </div>
     </body>
     <script src="script.js"></script>
