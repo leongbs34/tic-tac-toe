@@ -139,6 +139,9 @@ const gameboard = (() => {
     const blurBg = document.querySelector('#blur-bg');
     blurBg.addEventListener('click', removeBlur)
 
+    const reset = document.querySelector('#reset-btn');
+    reset.addEventListener('click', resetBoard);
+
 
     return {displayBoard};
 })();
